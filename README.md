@@ -26,3 +26,13 @@ The next parameter then says:
 max_page = num_page + 10000
 ```
 one can change the number after the + sign to adjust the amount of pages the crawler tries to access. 
+
+## Output file names:
+Once run, the code produces the JSON files of the following names:
+```
+crawl_data_##.json
+```
+for example, if the file contains the data from the 1206th Q&A board, the filename would be
+```
+crawl_data_1206.json
+```
